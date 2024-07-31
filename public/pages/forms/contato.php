@@ -1,0 +1,5 @@
+<?php
+
+$validate = validate([
+
+]);
