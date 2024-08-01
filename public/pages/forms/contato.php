@@ -1,5 +1,5 @@
 <?php
 
-require '../../../app/functions/custom.php';
+require "../../../bootstrap.php";
 
 dd($_POST);
