@@ -1,5 +1,5 @@
 <?php
 
-$validate = validate([
+require '../../../app/functions/custom.php';
 
-]);
+dd($_POST);

@@ -2,7 +2,7 @@
 
 <form class="d-flex" action="../pages/forms/contato.php" method="POST" role="form">
     <div class="col">
-        <legend>Formulário de Contato</legend>
+        <legend class="my-5">Formulário de Contato</legend>
         <div class="form-group mb-3">
             <label for="" class="form-label">Nome:</label>
             <input
@@ -41,7 +41,7 @@
             type="submit"
             class="btn btn-primary"
         >
-            Submit
+            Enviar
         </button>
     </div>
 </form>
