@@ -9,4 +9,4 @@ $validate = validate([
     'message' => 's'
 ]);
 
-dd($validate->name);
+dd($validate->subject);
