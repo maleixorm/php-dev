@@ -1,5 +1,7 @@
 <h2>Contato</h2>
 
+<br><?= get('message'); ?><br>
+
 <form class="d-flex" action="../pages/forms/contato.php" method="POST" role="form">
     <div class="col">
         <legend class="my-5">Formulário de Contato</legend>
