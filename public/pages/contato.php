@@ -1,6 +1,6 @@
 <h2>Contato</h2>
 
-<br><?= get('message'); ?><br>
+<br><?= get('message'); ?>
 
 <form class="d-flex" action="../pages/forms/contato.php" method="POST" role="form">
     <div class="col">
