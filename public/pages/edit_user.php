@@ -11,6 +11,7 @@
             <label for="" class="form-label">Nome</label>
             <input type="text" name="name" id="" class="form-control" placeholder="" aria-describedby="helpId" value="<?= $user->name; ?>" />
         </div>
+        <input type="hidden" name="id" value="<?= $user->id; ?>">
         <div class="mb-3">
             <label for="" class="form-label">Sobrenome</label>
             <input type="text" name="lastname" id="" class="form-control" placeholder="" aria-describedby="helpId" value="<?= $user->lastname; ?>" />
@@ -23,6 +24,6 @@
             <label for="" class="form-label">Senha</label>
             <input type="text" name="passwd" id="" class="form-control" placeholder="" aria-describedby="helpId" value="<?= $user->passwd; ?>" />
         </div>
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="submit" class="btn btn-primary">Atualizar</button>
     </div>
 </form>
