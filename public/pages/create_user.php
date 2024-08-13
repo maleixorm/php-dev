@@ -19,5 +19,6 @@
             <input type="text" name="passwd" id="" class="form-control" placeholder="" aria-describedby="helpId" />
         </div>
         <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <a href="/" class="btn btn-secondary">Ir para Home</a>
     </div>
 </form>
